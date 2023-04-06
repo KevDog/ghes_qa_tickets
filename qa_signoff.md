@@ -53,7 +53,7 @@ If you find a bug that needs to be prioritized for a fix as part of code freeze 
 
 - [ ] Add repo steps, screenshots, and other helpful documentation.
 
-- [ ] Add the **3-8-QA-Signoff** Label
+- [ ] Add the **3-9-QA-Signoff** Label
 
 - [ ] Add Severity of the bug labeling **HIGH, MEDIUM, or LOW.** [(Read more here)](https://gist.github.com/i-marsh/d83d4a66679de8a03eaf24a6f67c7856#file-devseverityghes-md)
 
