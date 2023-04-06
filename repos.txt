@@ -1,1 +1,22 @@
-KevDog/ghes_qa_tickets,KevDog
+github/mEAO,Connected Enterprise
+github/c2c-actions,Actions
+github/c2c-package-registry,Packages
+github/c2c-code-scanning,Code Scanning
+github/secret-scanning,Secret Scanning
+github/external-identities,External Identites
+github/ecosystem-api,Ecosystem API
+github/ecosystem-events,Ecosystem Events
+github/notifications,Notifications
+github/repos,Repositories
+github/pull-requests,Pull Requests
+github/issues,Issues
+github/dependabot-updates,Dependabot Updates
+github/dependabot-alerts,Dependabot Alerts
+github/audit-log,Audit Log
+github/security-center,Security Center
+github/pages-engineering,Pages
+github/slack,Slack
+github/memex,Memex
+github/dependency-graph,Dependency Graph
+github/octoshift,Octoshift/Migrations
+github/enterprise-releases,Enterprise Releases/BeyondSoft
