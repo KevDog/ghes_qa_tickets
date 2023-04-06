@@ -1,10 +1,20 @@
 # 👋 Hey Team,
 
+## :rotating_light: Special note for GHES 3.9 :rotating_light:
+
+For all previous releases we have completed a master sha-sync of all partner team containers **before** declaring feature freeze and generating the first .pre image for the next GHES release. This meant that the GHES Releases team would work with partner teams to resolve any and all issues (typically fighting with CI) that prevented the sha-sync from completing.
+
+For 3.9 we changed this process. Given the complexity and breadth of the ships in GHES 3.9 (e.g. MySQL 8 upgrade, Actions on Cluster etc.) we wanted to create the first image (`pre1`) of GHES 3.9 on our scheduled feature freeze date so that we could start the verification testing on time.
+
+To do that, we changed our approach so that the GHES Releases team only verified containers that are part of the core GHES infrastructure.
+
+:warning: **This means that there there is no guarantee that your container in the `.pre1` image for GHES 3.9 will work.** :warning:
+
+Given that, we'd really appreciate if you could start your verification testing as soon as possible.
 
 ## Please provide your 3.9 QA signoff ✅ 
 
 Product engineering teams are **responsible for the quality of their features** in Enterprise Server and must test their features and AOR, including regression testing. _For GHES releases we need explicit sign-offs from product teams that have functionality (both new and existing) in GHES_.
-
 
 ## Step 1 : Add new features ⬇️
 
