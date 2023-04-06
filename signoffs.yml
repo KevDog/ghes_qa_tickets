@@ -13,8 +13,8 @@ jobs:
         run: |
           while read -r line; do
             IFS=',' read -ra names <<< "$line"
-            issue_url=$(gh issue create --title "QA Signoff for: ${names[1]}" --body "$(cat ./issue.md)" --repo "${names[0]}")
+            issue_url=$(gh issue create --title "QA Signoff for: ${names[1]}" --body "$(cat .github/workflows/issue.md)" --repo "${names[0]}")
             echo "$issue_url" >> issue_urls.txt
-          done < ./repos.txt
+          done < .github/workflows/repos.txt
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
