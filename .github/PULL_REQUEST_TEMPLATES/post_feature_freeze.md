@@ -5,12 +5,9 @@ GHES is now locked for the addition of new features. Submissions after this poin
 ## Exceptions
 PRs for critical security patches and functionality blockers will be accepted for as long as possible. If you believe your submission meets that standard, please tell us:
 
-- The CVE this PR addresses:
-
-						\-or\-
-            
-- The issue fixed by this PR:
+- The CVE/issue number this PR addresses
 
 - The handle of the Hubber to contact for questions: 
 
-- Anything else you would like us to know: 
+- Anything else you would like us to know
+
