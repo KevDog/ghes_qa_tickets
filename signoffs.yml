@@ -10,11 +10,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run signoffs script
-        run: |
-          while read -r line; do
-            IFS=',' read -ra names <<< "$line"
-            issue_url=$(gh issue create --title "QA Signoff for: ${names[1]}" --body "$(cat .github/workflows/issue.md)" --repo "${names[0]}")
-            echo "$issue_url" >> issue_urls.txt
-          done < .github/workflows/repos.txt
+        run: bash signoffs.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
